@@ -22,7 +22,7 @@ public class TestController {
         map.put("sfzh",request.getParameter("sfzh"));
         return map;
     }
-    @RequestMapping(value="/cs")
+    @RequestMapping(value="/def")
     public String index(){
         return  "def";
     }
